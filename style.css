@@ -1,24 +1,25 @@
-.lesson-1{
-    color: blue;
+li:nth-child(n + 2) {
+    font-style:initial;
+  }
+  li:nth-child(2n) {
+    color:gold;
+  }
+  li:hover {
+    background-color:blue;
+    cursor:move;
+  }
+  li:last-child {
+    text-decoration:purple;
+  }
+  li:active {
+    background-color:yellowgreen;
+  }
+li:nth-child(3n){
+    background-color: lightpink;
+    color:mediumpurple;
 }
-.lesson-2{
-    color: crimson;
-}
-.lesson-3{
-    color: lime;
-}
-.lesson-4{
-    color:darkorchid ;
-}
-.lesson-5{
-    color: lightpink;
-}
-.lesson-6{
-    color:saddlebrown;
-}
-.lesson-7{
-    color: hotpink;
-}
-.lesson-1:{
-    color: chocolate;
+li:first-child{
+    color: aqua;
+    font-size:larger;
+    font-weight: 500;
 }
